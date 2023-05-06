@@ -20,6 +20,13 @@
               <li><a class="dropdown-item" href="http://<?php echo APP_HOST; ?>/produto/cadastro">Cadastro de Produto</a></li>
             </ul>
           </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle <?= ($viewVar['nameController'] == "FornecedorController") ? 'active' : '' ?>" href="#" role="button" data-bs-toggle="dropdown">Fornecedores</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="http://<?php echo APP_HOST; ?>/fornecedor">Lista de Fornecedores</a></li>
+              <li><a class="dropdown-item" href="http://<?php echo APP_HOST; ?>/fornecedor/cadastro">Cadastro de Fornecedor</a></li>
+            </ul>
+          </li>
         </ul>
       </div>
     </div>

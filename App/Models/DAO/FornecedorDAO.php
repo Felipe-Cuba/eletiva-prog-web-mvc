@@ -18,8 +18,8 @@ class FornecedorDAO extends BaseDAO
     public function getAll()
     {
         $resultado = $this->select("SELECT * FROM fornecedor");
-
-        return $resultado->fetchObject(Fornecedor::class);
+        
+        return $resultado->fetchAll(\PDO::FETCH_CLASS, Fornecedor::class);
     }
 
     public function salvar(Fornecedor $fornecedor)

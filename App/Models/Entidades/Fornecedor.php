@@ -18,6 +18,18 @@ class Fornecedor
         return $this->nome;
     }
 
+
+    public function setId(int $value)
+    {
+        $this->id = $value;
+    }
+
+    public function setNome(string $value)
+    {
+        $this->nome = $value;
+    }
+    
+
     public function getData()
     {
         return $this->data_cadastro;

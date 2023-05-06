@@ -1,5 +1,5 @@
 {
-    "name": "ptacca/mvc-exemplo",
+    "name": "fcuba/mvc-exemplo",
     "description": "Exemplo de MVC",
     "autoload": {
         "psr-4": {
@@ -8,8 +8,8 @@
     },
     "authors": [
         {
-            "name": "Paulo Tacca",
-            "email": "ptacca@gmail.com"
+            "name": "Felipe Cuba",
+            "email": "felipeccuba1803@gmail.com"
         }
     ],
     "require": {
